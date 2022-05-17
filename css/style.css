@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+h1 a {
+    color: hsl(0, 0%, 100%);
+    transition: color .3s ease;
+}
+
+h1 a:hover {
+    color:  hsl(178, 100%, 50%);
+}
+
+.upper {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    opacity: .9;
+}
+
+.equilibrium {
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.eq-img {
+    background: none;
+}
+
+.eq-img:hover {
+    background: url(images/favicon-32x32.svg);
+}
+
+.lower {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsla(215, 52%, 70%, .2);
+}
+
+.lower p:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.lower p:nth-child(2) img {
+    margin-right: 5px;
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.eth img {
+    padding-right: 5px;
+}
+
+.creater {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.creater img {
+    margin-right: 10px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin: 2rem;
+}
